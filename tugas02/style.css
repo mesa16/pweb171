@@ -1,0 +1,190 @@
+body
+{
+  background-color: #ddeeff;
+  font-family: verdana;
+}
+/*layout*/
+
+.container
+{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.sidemenu
+{
+  position: relative;
+  width: 25%;
+  float: left;
+}
+.content
+{
+  width: 75%;
+  margin-left: 25%;
+}
+/*menu*/
+.menu
+{
+  width: 100%;
+  margin-left: -40px;
+}
+.menu li
+{
+  list-style: none;
+  margin: 6px;
+  line-height: 40px;
+  background-color: #059305;
+  text-align: center;
+  font-weight: bold;
+}
+.menu li a{
+background-color: #0DDF68 0.7;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  box-shadow: 3px 3px #343537;
+}
+.menu li a:hover{
+  text-decoration: none;
+  color: #000;
+  background-color: #33b5e5 1;
+  box-shadow: 5px 5px #343537;
+  display: block;
+  width: 200px;
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 2px;
+}
+
+/*menu*/
+.judulutama
+{
+  box-shadow: 0 4px 3px 0 #1AE6C1;
+  padding: 15px;
+  background-color: #747ae3;
+  text-align: center;
+  color: #fff;
+  text-shadow: 3px 3px #5b6783;
+  border-radius: 5px;
+}
+.bloklagu
+{
+  width: 600px;
+  box-shadow: 5px 5px #5b6783;
+  background-color: #dcd8eb;
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  overflow: hidden;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.boxgambar
+{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+.gambarlagu
+{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+  display: block;
+
+}
+.judullagu
+{
+  color: #7f2edl;
+  font-family:'Merienda';
+  text-shadow: 2px 2px #343537
+}
+.tekslagupelangi
+{
+  background-image: url("pelangi.jpg");
+  background-repeat:repeat-x;
+  font-family: 'short stack';
+  color:#F7371C;
+  font-size: 15px;
+}
+#pelangi1
+{
+  background-image: url("pelangi.jpg");
+  background-repeat: repeat-x;
+  color: #c63702;
+
+}
+.pelangi2
+{
+  font-size: 25px;
+  font-family: 'Bree-Sherif';
+  color:#f51cd2;
+  text-transform: uppercase;
+}
+#balonku1
+{
+color: #F7304E;
+font-family: 'Bitter';
+text-transform: lowercase;
+}
+.balonku2
+{
+  color: #5115F6;
+  font-family: 'Lora';
+  text-transform: uppercase;
+}
+#naikkeretaapi1
+{
+  color: #F2072B;
+  font-family: 'Merryweather';
+}
+.naikkeretaapi2
+{
+  color: #23C0F5;
+  font-family: sans-serif;
+  text-transform:uppercase;
+}
+#cicak1
+{
+  color: #46152C;
+  font-family: 'Playfair+Display';
+}
+.cicak2
+{
+  color: #298721;
+  text-transform: uppercase;
+  font-family: 'Concert+One';
+}
+#copyright
+{
+  position: sticky;
+  width: 100%;
+  line-height: 30px;
+  margin-bottom: 0px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 10px;
+}
+/*responsive layout*/
+@media screen and (max-width: 720px){
+  .sidemenu
+  {
+    width: 100%;
+  }
+.content
+{
+  width: 100%;
+  margin-left: auto;
+}
+.bloklagu
+{
+  width: 95%;
+}
+}

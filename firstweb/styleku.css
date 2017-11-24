@@ -1,0 +1,107 @@
+body
+{
+background-position: center;
+background-image:url("1.jpg");
+font-size: 20px;
+text-align: center;
+}
+#batas
+{
+width: 75%;
+margin: auto;
+
+
+}
+.container
+{
+margin-left: 5px;
+margin-right: 5px;
+margin-top: 5px;
+margin-bottom: 5px;
+
+}
+.containeratas
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.containerisi
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.containerkiri
+{
+  margin-left: 10px;
+}
+.containerbawah
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#home
+{
+font-style: italic;
+color: #f4dc42;
+background-color: #f44242;
+font-family: sans-serif;
+text-align: center;
+width: 1000px;
+height: 100px;
+float: center;
+margin: auto;
+}
+#kiri
+{
+color: #f44265;
+text-align: left;
+font-size: 15px;
+height: 500px;
+width: 210px;
+float: left;
+background-color: #b8edd2;
+margin: auto;
+}
+
+#isi
+{
+  float: right;
+  background-color: #f22821;
+  color: #fff;
+  width: 743px;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+.slide-holder
+{
+  background: url("2.jpg") repeat-x;
+  height: 150px;
+  width: 900px;
+  clear: both;
+  animation-duration: 30s;
+  border: 1px solid #c69;
+}
+@keyframes.slide {
+  0%{
+    transform: translate3d(0,0,0);
+  }
+100%{ transform: translate3d(-1692px,0,0);
+
+}
+}
+
+#biodata
+{
+color: #0a0909;
+background-color:#ff0000;
+margin: auto;
+width: 1000px;
+height: 1000px;
+text-align: left;
+margin: auto;
+}

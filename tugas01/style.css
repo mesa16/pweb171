@@ -1,0 +1,44 @@
+body
+{
+background-color:#7FFF00;
+}
+h1
+{
+  text-align: center;
+}
+a:link, a:visited, a:active
+{
+  width: 200px;
+  margin: 2px;
+  background-color: #8B008B;
+  color: #FFF;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover
+{
+   width: 200px;
+    margin: 2px;
+    background-color: #c60909;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+}
+img
+{
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lagu
+{
+  color: #F2324D;
+   text-align: center;
+   font-family: Verdana;
+   font-size: 18px;
+   font-style: italic;
+ }
