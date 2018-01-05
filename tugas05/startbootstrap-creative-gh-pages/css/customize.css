@@ -1,0 +1,66 @@
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../img/anak.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+  }
+  .text-faded {
+    color: rgba(51,10,10,.93);
+}
+.bg-primary {
+    background-color: #F426E0!important;
+}
+.text-white {
+    color: #77EDF2!important;
+}
+.btn-light {
+    color: #EAEDE8;
+    background-color: ##6DFBF7;
+    border-color: #f8f9fa;
+}
+.btn-light {
+    color: #F2F3FB;
+    background-color: #6CF5E8;
+    border-color: #f8f9fa;
+}
+.boxgambar
+{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+.gambarlagu
+{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+  display: block;
+
+}
+.judullagu
+{
+  color: #7f2edl;
+  font-family:'Merienda';
+  text-shadow: 2px 2px #343537;
+}
+bloklagu
+{
+  width: 600px;
+  box-shadow: 5px 5px #5b6783;
+  background-color: #dcd8eb;
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: none;
+  overflow: hidden;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}

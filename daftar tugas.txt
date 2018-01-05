@@ -1,0 +1,6 @@
+-buat tempalte dan modifikasi sndiri
+-buat php prodi dan mahasiswa
+-download template starbootstrap
+dalam folder tugas 05
+-ada folder tempalte yang dijadikan contoh folder tempalte ori
+-ada folder tempalte yang kita modifikasi sendiri tempalte lagu modifikasi sendiri

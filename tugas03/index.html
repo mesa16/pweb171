@@ -5,19 +5,37 @@
     <title>Lagu anak</title>
   <link href="https://fonts.googleapis.com/css?family=Bitter|Bree+Serif|Concert+One|Josefin+Sans|Lora|Merriweather|Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   </head>
   <body>
     <div class="container">
       <h1 class="judulutama">Koleksi Lagu Anak</h1>
       <div class="sidemenu">
           <ul class="menu">
-              <li> <a href="#">Pelangi</a> </li>
-              <li> <a href="#">Balonku</a> </li>
-              <li> <a href="#">Naik kereta</a> </li>
-              <li> <a href="#">Cicak di dinding</a> </li>
+              <li> <a href="#" onclick="tampillagu('pelangi1')">Pelangi
+                <span id="cpelangi1"></span>
+              </a>
+            </li>
+              <li> <a href="#" onclick="tampillagu('balonku1')">Balonku
+                <span id="cbalon1"></span>
+              </a>
+            </li>
+              <li> <a href="#" onclick="tampillagu('naikkeretaapi1')">Naik kereta
+                <span id="ckereta1"></span>
+              </a>
+            </li>
+              <li> <a href="#" onclick="tampillagu('cicak1')">Cicak di dinding
+                <span id="ckereta1"></span>
+              </a>
+            </li>
           </ul>
       </div>
+
+      <div id="info">
+        &lt;&lt; Klik menu untuk melihat lagu
+      </div>
+      <p id="date"></p>
+    <p id="time"></p>
 
       <div class="content">
           <div class="bloklagu" id="pelangi1">
@@ -100,13 +118,11 @@
             </p>
           </div>
 
-
-
       <div id="copyright">
           didesain oleh :mesa @2017
       </div>
 
     </div>
-
+    <script type="text/javascript" src="js/lagu.js"></script>
   </body>
 </html>

@@ -1,0 +1,74 @@
+body {
+    font-family: monospace, "Georgia", serif, cursive ;
+    color: #F64706;
+}
+
+.blog-masthead {
+    background-color: #DD34F2;
+}
+
+.nav-link {
+    position: relative;
+    padding: 1rem;
+    font-weight: 500;
+    color: #F20224;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-family: serif, monospace, Arial, cursive;
+    font-weight: 400;
+    color: #F9135F;
+}
+
+.blog-description {
+    font-size: 1.1rem;
+    color: #2DFAD1;
+}
+.blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #F51C6A;
+}
+a {
+    color: #FA643C;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.boxgambar
+{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+.gambarlagu
+{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+  display: block;
+}
+.tekslagu
+{
+  margin-left: 10px;
+color: #FA3006;
+font-family: fantasy;
+font-style: oblique;
+margin-bottom: 0px;
+}
+.bloklagu
+{
+  width: 600px;
+  box-shadow: 5px 5px #5b6783;
+  background-color: #dcd8eb;
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  overflow: hidden;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
